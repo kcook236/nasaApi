@@ -1,0 +1,54 @@
+body {
+  background-color: #3F3D34;
+    font-family: Raleway;
+}
+nav{
+  padding-top: 40px;
+}
+.nav-title{
+  font-family: Arizonia;
+  font-size: 125%;
+}
+
+
+.app-body{
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;;
+}
+
+.offset{
+  position: relative;
+  bottom: 80px;
+  box-shadow:  rgba(0, 0, 0, 0.22) -2px 9px 5px 0px;
+}
+.headings {
+  font-family: Raleway;
+  font-weight: bold;
+}
+.sub-headings {
+  font-style: italic;
+  color: #9E9E9E;
+}
+
+.fa {
+  font-size: 1.3em;
+}
+
+.card{
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: -1px 4px 5px #9E9E9E;
+}
+
+.tiles{
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  color: #fff;
+  padding-bottom: 20px;
+}
