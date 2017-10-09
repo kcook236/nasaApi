@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class DisplayImage extends Component{
   render() {
-    const images = this.props.?.map(image => {
+    const images = this.props.images.map(image => {
       return(
         <div key={image.id}>
           <img className= "image" src="{image.img_src}" alt=""/>

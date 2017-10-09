@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class GetImageForm extends Component{
   render(){
     return(
-      <div>
+      <div className="imageForm">
         {this.props.children}
       </div>
     )
